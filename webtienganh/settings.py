@@ -47,6 +47,7 @@ ROOT_URLCONF = 'webtienganh.urls'
 #ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
 ALLOWED_HOSTS = ['webtienganhpro.onrender.com']
 
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
