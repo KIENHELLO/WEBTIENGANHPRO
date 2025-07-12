@@ -7,8 +7,6 @@ SECRET_KEY = 'django-insecure-t10t9hq1_if8njx-+%ydbe!2t7gyxjevsw9xjdjk!x%=tv5njl
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -62,8 +60,6 @@ TEMPLATES = [
         },
     },
 ]
-ALLOWED_HOSTS = ['webtienganh.onrender.com', 'localhost', '127.0.0.1']
-
 
 
 WSGI_APPLICATION = 'webtienganh.wsgi.application'
