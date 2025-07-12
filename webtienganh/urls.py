@@ -3,6 +3,8 @@
 from django.contrib import admin
 from django.urls import path, include, re_path
 from .views import FrontendAppView  # ← dòng này quan trọng
+from django.http import HttpResponse
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
